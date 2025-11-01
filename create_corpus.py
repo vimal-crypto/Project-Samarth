@@ -1,6 +1,3 @@
-# create_corpus.py
-# Build corpus.jsonl by merging APY production (state-year-crop) with IMD rainfall (state-year)
-# Output lines like: "In 2010, KARNATAKA produced X tonnes of RICE across Y ha (yield Z t/ha). Annual rainfall: W mm."
 
 import json
 import pandas as pd
