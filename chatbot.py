@@ -1,10 +1,3 @@
-# chatbot.py
-# Project Samarth — RAG Chatbot (CPU, Python 3.9)
-# - Uses FAISS (CPU) + MiniLM embeddings
-# - Loads corpus.jsonl + prebuilt FAISS index (or builds it on first run)
-# - Answers with narrative + bullet facts + citations
-# - Shows retrieved facts table and (when possible) a simple line chart parsed from facts
-# - No DuckDB, no analytics engine, no GPU required
 
 import os
 import re
